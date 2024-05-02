@@ -28,7 +28,7 @@ provider "azurerm" {
     virtual_machine {
       delete_os_disk_on_deletion = false
       ##it will ensure when the vm is destro disk is not delete. 
-git commit -m "my first terraform script"
+
     }
     backend "azurerm" {
         resource_group_name = "terraform-storage-rg"
